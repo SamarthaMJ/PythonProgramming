@@ -12,7 +12,7 @@ if userInput == 1:
     f = int(input("Enter the number to find factorial"))
     print("Factorial of ", f, "=", math.factorial(f))
 
-# 2 Average of number
+# 2 Average
 elif userInput == 2:
     n = int(input("Enter number"))
     sum = 0
@@ -22,7 +22,7 @@ elif userInput == 2:
         average = sum / n
     print("Average of ", n, "numbers is: ", average)
 
-# 3 Sum of a number
+# 3 Sum
 elif userInput == 3:
     num = int(input("Enter number"))
     sum = 0
@@ -31,6 +31,7 @@ elif userInput == 3:
         sum = sum + num
     print("Sum of first ",num, "numbers is: ", sum)
 
+# even series
 elif userInput == 4:
     n = int(input("Enter first term"))
     m = int(input("Enter last term"))
@@ -40,6 +41,8 @@ elif userInput == 4:
         m = m - 1
     for i in range(n, m + 1, 2):
         print(i)
+
+# odd series
 elif userInput == 5:
     n = int(input("Enter first term"))
     m = int(input("Enter last term"))
